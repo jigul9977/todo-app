@@ -1,0 +1,36 @@
+@import url(./reset.css);
+
+:root {
+  --color-background: #edede9;
+  --color-task: #f8f9fa;
+}
+button.btn:hover {
+  opacity: 0.8;
+}
+table thead {
+  font-weight: 600;
+  font-size: 18px;
+  background-color: var(--color-background);
+}
+table button {
+  width: 35px;
+  height: 35px;
+}
+table {
+  border-spacing: 3px;
+  border-collapse: separate;
+}
+thead th:first-child {
+  border-top-left-radius: 10px;
+}
+thead th:last-child {
+  border-top-right-radius: 10px;
+}
+tbody td {
+  padding: 5px 10px;
+  background-color: var(--color-task);
+  width: 25%;
+}
+#edit-btn {
+  display: none;
+}
